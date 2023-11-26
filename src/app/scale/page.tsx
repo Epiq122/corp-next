@@ -1,4 +1,13 @@
+import Hero from '@/components/hero';
+import scaleImg from 'public/images/scale.jpg';
+
 const ScalePage = () => {
-  return <div>Scale</div>;
+  return (
+    <Hero
+      imgData={scaleImg}
+      imgAlt='dirty warehouse'
+      title='Scale to Fit Your Needs'
+    />
+  );
 };
 export default ScalePage;
